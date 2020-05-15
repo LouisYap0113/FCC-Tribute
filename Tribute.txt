@@ -2,6 +2,9 @@
 <html>
 <body>
 <style>
+main {
+      text-align:center;
+     }
 img {
      max-width:100%;
      height:auto;
@@ -22,8 +25,8 @@ img {
 
 <div id="img-div">
 <figure>
-<img id="image" src="https://www.verywellmind.com/thmb/6h6o5bHdFAGEhV_GQjLoL6SCAPs=/3632x2362/filters:no_upscale():max_bytes(150000):strip_icc()/Sigmund-Freud-in-office-56a7922f5f9b58b7d0ebc7ad.jpg" alt="A picture of Sigmund Freud in his office.">
-<figcaption id="img-caption">
+<img id="image" src="https://www.verywellmind.com/thmb/6h6o5bHdFAGEhV_GQjLoL6SCAPs=/3632x2362/filters:no_upscale():max_bytes(150000):strip_icc()/Sigmund-Freud-in-office-56a7922f5f9b58b7d0ebc7ad.jpg" alt="A picture of Sigmund Freud sitting in his office.">
+<figcaption id="img-caption"> Sigmund Freud-Father of Psychology
 </figcation>
 </figure>
 </div>
