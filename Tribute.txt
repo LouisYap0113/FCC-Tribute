@@ -2,42 +2,60 @@
 <html>
 <body>
 <style>
-main {
-      text-align:center;
+html {
+        font-size: 100%;
      }
+
+main, #img-div figure, #tribute-info
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
 img {
-     max-width:100%;
-     height:auto;
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 
-#img-div {
-          display:flex;
-          justify-content:center; 
-         }
-
-
-
-
+#img-caption {
+                margin-top:0.5rem;
+             }
 </style>
+
 <main id="main">
 
-<h1 id="title"> Sigmund Freud </h1>
+<h1 id="title">Sigmund Freud</h1>
 
 <div id="img-div">
 <figure>
 <img id="image" src="https://www.verywellmind.com/thmb/6h6o5bHdFAGEhV_GQjLoL6SCAPs=/3632x2362/filters:no_upscale():max_bytes(150000):strip_icc()/Sigmund-Freud-in-office-56a7922f5f9b58b7d0ebc7ad.jpg" alt="A picture of Sigmund Freud sitting in his office.">
-<figcaption id="img-caption"> Sigmund Freud-Father of Psychology
-</figcation>
+<figcaption id="img-caption">Sigmund Freud-Father of Psychology</figcation>
 </figure>
 </div>
 
 <div id="tribute-info">
+<h3>Biography</h3>
+<ul>
+<li><strong>1856</strong> -- Born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire.</li>
+<li><strong>1881</strong> -- Qualified as a Doctor of Medicine at the University of Vienna.</li>
+<li><strong>1891</strong> -- Published his first book "<em>On the Aphasis: a Critical Study</em>".</li>
+<li><strong>1902</strong> -- To be made a Affiliated Professor in Neuropathology at the University of Vienna.Also this year, founded his discussion group <em>Wednesday Psychological Society</em>.</li>
+<li><strong>1908</strong> -- Held the first <em>International Psychoanalytical Congress</em> in Salzburg.</li>
+<li><strong>1910</strong> -- Founded the <em>International Psychoanalutical Association (IPA)</em>.</li>
+<li><strong>1914</strong> -- Published "<em>The History of the Psychoanalytic Movement</em>", the German original being first published in the <em>Jahrbuch</em></li>
+<li><strong>1923</strong> -- Diagnosed with oral cancer.</li>
+<li><strong>1930</strong> -- Was awarded the Goethe Prize in recognition of his contributions to psychology and to German literary culture.</li>
+<li><strong>1938</strong> -- Published his last book "<em>Moses and Monotheism</em>"</li>
+<li><strong>1939</strong> -- Died at the age of 83.</li>
+</ul>
 </div>
 
 
 
 <div id="for-link">
-<a id="tribute-link" href="#" target="_blank">here</a>
+<p>To explore more about Sigmund Freud, please click <a id="tribute-link" href="https://en.wikipedia.org/wiki/Sigmund_Freud" target="_blank"><strong>here</strong></a>.</p>
 </div>
 
 
