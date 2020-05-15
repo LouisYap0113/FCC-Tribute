@@ -1,17 +1,27 @@
 !DOCTYPE html
 <html>
 <body>
+
 <style>
 html {
         font-size: 100%;
      }
 
-main, #img-div figure, #tribute-info
+main, #img-div figure, #tribute-info, #for-link
      {
         display: flex;
         flex-direction: column;
         align-items: center;
      }
+
+main {
+        background:#eee;
+     }
+
+#img-div {
+            margin:0.5rem;
+            background:white;
+         }
 
 img {
         display: block;
@@ -21,7 +31,21 @@ img {
 
 #img-caption {
                 margin-top:0.5rem;
+                font-size:1.2rem;
              }
+
+#tribute-info ul li {
+                    margin-bottom:1rem;
+                    }
+
+#for-link {
+            font-size:2rem;
+            width:99%;
+          }
+
+#tribute-link:hover {
+                    color:red;
+                  }
 </style>
 
 <main id="main">
@@ -36,7 +60,7 @@ img {
 </div>
 
 <div id="tribute-info">
-<h3>Biography</h3>
+<h2>Biography</h2>
 <ul>
 <li><strong>1856</strong> -- Born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire.</li>
 <li><strong>1881</strong> -- Qualified as a Doctor of Medicine at the University of Vienna.</li>
@@ -52,13 +76,9 @@ img {
 </ul>
 </div>
 
-
-
 <div id="for-link">
-<p>To explore more about Sigmund Freud, please click <a id="tribute-link" href="https://en.wikipedia.org/wiki/Sigmund_Freud" target="_blank"><strong>here</strong></a>.</p>
+<p>To explore more about Sigmund Freud, please click <a id="tribute-link" href="https://en.wikipedia.org/wiki/Sigmund_Freud" target="_blank"><em><strong>here</strong></em></a>.</p>
 </div>
-
-
 
 </main>
 </body>
